@@ -1,0 +1,18 @@
+.contenedor {
+    margin: 80px 600px auto;
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 0 0 20px;
+}
+
+h1{
+    text-align: center;
+}
+form{
+    padding: 20px;
+}
+
+.margen_input{
+   padding:10px;
+
+}
