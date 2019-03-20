@@ -26,14 +26,14 @@ class UserController extends Controller
 
 
         $nonceBase64 = base64_encode($nonce);
-        $secretKey = "024h1IlD";
+        $secretKey = "--";
         $seed = date("c");
         $tranKey = base64_encode(sha1($nonce . $seed . $secretKey, true));
         
     
         $request = array(
             "auth" => array(
-                        "login" => "6dd490faf9cb87a9862245da41170ff2",
+                        "login" => "--",
                         "seed" => $seed,
                         "nonce" => $nonceBase64,
                         "tranKey" => $tranKey
